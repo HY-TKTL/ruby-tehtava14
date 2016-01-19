@@ -14,13 +14,13 @@ class Joukkue
 
   def maaleja_yhteensa
     maalit = 0
-    @pelaajat.map {|pelaaja| maalit += pelaaja.maaleja}
+    @pelaajat.each {|pelaaja| maalit += pelaaja.maaleja}
     maalit
   end
 
   def paras_maalintekija
     paras = @pelaajat.first
-    @pelaajat.map do |pelaaja|
+    @pelaajat.each do |pelaaja|
       if pelaaja.maaleja > paras.maaleja
         paras = pelaaja
       end
