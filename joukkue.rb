@@ -27,6 +27,6 @@ class Joukkue
  end
 
  def to_s
-  "#{@nimi}, pelaajia #{@pelaajat.length}, maaleja yhteensa #{self.maaleja_yhteensa}"
+  "#{@nimi}, pelaajia #{@pelaajat.length}, maaleja yhteensä #{self.maaleja_yhteensa}"
  end
 end
