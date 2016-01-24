@@ -10,7 +10,7 @@ class Joukkue
 		@pelaajat << pelaaja
 	end
 
-	def maaleja_yhteensä
+	def maaleja_yhteensa
 		count = 0
 		pelaajat.each { |p| count += p.maaleja }
 		count
