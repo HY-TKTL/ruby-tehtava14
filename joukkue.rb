@@ -4,6 +4,7 @@ class Joukkue
 	def initialize(nimi)
 		@nimi = nimi
 		@pelaajat = []
+		@maalejaYht = 0
 	end
 
 	def lisaa_pelaaja(pelaaja)
@@ -22,7 +23,7 @@ class Joukkue
 		best
 	end
 	def to_s
-		"#{nimi}"
+		"#{nimi}, pelaajia #{pelaajat.size}, maaleja yhteensä #{maaleja_yhteensa}"
 	end
 
 end

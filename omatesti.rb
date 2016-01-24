@@ -12,6 +12,6 @@ p2.lisaa_maali
 
 puts j
 
-puts j.maaleja_yhteensä
+puts j.maaleja_yhteensa
 
 puts j.paras_maalintekija
