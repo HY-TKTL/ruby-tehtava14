@@ -20,7 +20,3 @@ class Pelaaja
     "#{@nimi} (#{@pituus} cm) maaleja #{@maalimaara}"
   end
 end
-
-p = Pelaaja.new 'chang', 170
-
-puts p.to_s
